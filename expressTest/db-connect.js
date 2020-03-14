@@ -1,7 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
 
-console.log(ObjectID());
-
 // ES6 이후 Object Destructuring
 let humanZsl001 = {
     name: 'SantJ',
@@ -24,7 +22,7 @@ MongoClient.connect('mongodb://localhost:27017/Zsls',(error, client) => {
     const db = client.db('Zsls');
     db.collection('Human').insertOne({
         name: 'SantJ',
-        _id: 821093943588,
+        _id: 82109394358800,
         nationality: 'Korean',
         balance: 345678, //Bank Standard Currency
         currency: 'KRW'
