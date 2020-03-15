@@ -13,7 +13,8 @@ const connectDb = async () => {
         const db = client.db('Zsls');
         db.collection('Human').insertOne(testData, () => {
             console.log('몽고 DB 입력 성공 =>', testData)
-        });
+            }
+        );
     }catch(e){
         console.log(e,'에러가 발생하였습니다.');
     }
