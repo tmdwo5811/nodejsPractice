@@ -6,7 +6,8 @@ function functionScope () {
     console.log(variable2, '함수 실행 2')
 }
 console.log(variable); //출력
-//console.log(variable2); //에러
+
+
 functionScope();
 
 let obj = {
