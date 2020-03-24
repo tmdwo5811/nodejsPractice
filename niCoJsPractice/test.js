@@ -16,4 +16,6 @@ let obj = {
         console.log(testString)}
 }
 
+
+
 console.log(obj.testString, '오브젝트 Key값 호출');
