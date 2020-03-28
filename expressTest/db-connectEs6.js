@@ -10,6 +10,8 @@ const connectDb = async () => {
             age: 28,
             nationality: 'Korean'
         };
+
+        
         
         const db = client.db('Zsls');
         db.collection('Human').insertOne(testData, () => {
