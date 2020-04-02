@@ -7,7 +7,8 @@ app.get('/', (req, res) => { //app.get = '라우터' 라는 역할, 라우팅 = 
 });
 app.get('/hello',(req,res) => {
     res.send('Hello world~!');
-})
+});
+
 app.get('/login',(req, res) => {
     res.send('Login adsfasdfasdfplease');
 });
