@@ -11,7 +11,7 @@ app.get('/hello',(req,res) => {
 });
 
 app.get('/login',(req, res) => {
-    res.send('Login adsfasdfasdfplease');
+    res.send('Login');
 });
 app.get('/index',(req, res) => {
     res.send('HTML');
